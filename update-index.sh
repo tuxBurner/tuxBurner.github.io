@@ -8,7 +8,7 @@ cat <<-EOF
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>julienrf.github.com</title>
+    <title>tuxBurner.github.io</title>
   </head>
   <body>
   <h1>Repository Contents</h1>
