@@ -58,15 +58,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.app</groupId>
-            <artifactId>neo4j-server</artifactId>
+            <groupId>org.neo4j</groupId>
+            <artifactId>neo4j</artifactId>
             <version>1.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j.app</groupId>
-            <artifactId>neo4j-server</artifactId>
-            <version>1.9.2</version>
-            <classifier>static-web</classifier>
         </dependency>
         <dependency>
             <groupId>org.neo4j</groupId>
