@@ -1,9 +1,8 @@
 #! /bin/bash
 
-for i in $(find repo -type d); do
-   (cd $i; pwd; /_data/_workspaces/workspace_play/tuxBurner.github.io/update-index.sh > index.html)
-done
+currDir=$(pwd);
+updateScript="$currDir/update-index.sh"
 
-#for i in $(find repo-snapshots -type d); do
-#   (cd $i; pwd; ~/workspace_play/tuxBurner.github.io/update-index.sh > index.html)
-#done
+for i in $(find repo -type d); do
+   (cd $i; pwd; $updateScript > index.html)
+done
